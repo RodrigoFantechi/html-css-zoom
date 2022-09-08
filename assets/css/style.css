@@ -72,7 +72,7 @@ body{
 main {
     background-color: var(--clr-black);
     padding: 5rem 5rem 1.75rem 5rem;
-    
+   
     
 }
 
@@ -106,7 +106,7 @@ footer{
     font-size: 1.5rem;
 }
 .button{
-    padding: 0.75rem;
+    padding: 0.5rem;
     align-items: center;
 }
 .button *{
@@ -122,13 +122,12 @@ footer .row{
 background-color: var(--clr-light-dark);
 color: var(--clr-danger);
 padding: 2rem;
-position: absolute;
-right: 0;
+}
+.left{
+    justify-content: flex-end;
+}
 
-}
-.position_relative{
-    position: relative;
-}
+
 
     
     
@@ -142,8 +141,8 @@ right: 0;
 .col-2 {
     width: calc((100% / 12) * 2);
 }
-.col-4 {
-    width: calc((100% / 12) * 4);
+.col-5 {
+    width: calc((100% / 12) * 5);
 }
 
 
