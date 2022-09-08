@@ -6,6 +6,10 @@
     --clr-black: #000000;
     --clr-white: #FFFFFF;
     --clr-nav: #222222;
+    --clr-light-dark: #4A4A4A;
+    --clr-danger: #FF0000;
+
+
 }
 
 * {
@@ -27,18 +31,39 @@ img {
     max-width: 100%;
 }
 
+body{
+    color: var(--clr-white);
+    font-family: 'Lato', sans-serif;
+    
+}
+.d_flex{
+    display: flex;
+    
+}
 
 /* #endregion Common Rules */
 
-/* #region Utilities */
-
-
-/* #endregion Utilities */
 
 /* #region Header */
 
+.absolute_top{
+    position: absolute;
+    right: 1rem;
+    top:  1rem;
+}
 
-
+.speaker, .rotate{
+    border-radius: 0.5rem;
+    background-color: var(--clr-light-dark);
+    padding: 0.3rem;
+}
+.rotate{
+    margin-left: 0.5rem;
+    
+}
+.rotate i{
+    rotate: 45deg;
+}
 
 /* #endregion Header */
 
@@ -47,7 +72,7 @@ img {
 main {
     background-color: var(--clr-black);
     padding: 5rem 5rem 1.75rem 5rem;
-    color: var(--clr-white);
+    
     
 }
 
@@ -74,12 +99,46 @@ main .col-1 {
 
 footer{
     background-color: var(--clr-nav);
+    text-align: center;
 }
-/* #endregion Footer */
+
+.icon{
+    font-size: 1.5rem;
+}
+.button{
+    padding: 0.75rem;
+    
+    align-items: center;
+}
+.button *{
+    margin: 0.2rem;
+}
+footer .col-8{
+    text-align: center;
+}
+footer .row{
+    justify-content: space-between;
+}
+.end_meeting{
+background-color: var(--clr-light-dark);
+color: var(--clr-danger);
+padding: 2rem;
+}
+
+    
+    
+    
+    /* #endregion Footer */
 
 /* #region Grid Flexbox */
 .col-1 {
     width: calc((100% / 7) * 1);
+}
+.col-2 {
+    width: calc((100% / 12) * 2);
+}
+.col-4 {
+    width: calc((100% / 12) * 4);
 }
 
 

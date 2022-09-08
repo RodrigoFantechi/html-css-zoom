@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
@@ -15,7 +19,12 @@
 </head>
 
 <body>
-
+<header>
+    <div class="absolute_top">
+        <span class="speaker"><i class="fa-solid fa-table-cells"></i> Speaker View</span>
+        <span class="rotate"><i class="fa-solid fa-up-down-left-right"></i></span>
+    </div>
+</header>
     <main id="site_main">
         <div class="container">
             <div class="row">
@@ -375,12 +384,61 @@
     <!-- /#site_main -->
     <footer id="site_footer">
         <nav>
-            <div>
-                
-            </div>
-            <div></div>
-            <div></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-2 d_flex">
+                        <div class="button">
+                            <div class="icon"><i class="fa-solid fa-microphone"></i></div>
+                            <div class="text">Mute</div>
+                        </div>
+                        <div class="button d_flex"><i class="fa-solid fa-angle-up"></i></div>
+                        <div class="button">
+                            <div class="icon"><i class="fa-solid fa-video"></i></div>
+                            <div class="text">Stop Video</div>
+                        </div>
+                        <div class="button d_flex"><i class="fa-solid fa-angle-up"></i></div>
+                    </div>
 
+                    <div class="<col-4></col-4> d_flex">
+                        <div class="button">
+                            <div class="icon"><i class="fa-solid fa-user-plus"></i></div>
+                            <div class="text">Invite</div>
+                        </div>
+                        <div class="button">
+                            <div class="icon"><i class="fa-solid fa-user-group"></i></div>
+                            <div class="text">Manage Participants</div>
+                        </div>
+                        <div class="button">
+                            <div class="icon"><i class="fa-solid fa-chart-column"></i></div>
+                            <div class="text">Polling</div>
+                        </div>
+                        <div class="button">
+                            <div class="icon"><i class="fa-solid fa-share-from-square"></i></div>
+                            <div class="text">Share Screen</div>
+                        </div>
+                        <div class="button d_flex"><i class="fa-solid fa-angle-up"></i></div>
+                        <div class="button">
+                            <div class="icon"><i class="fa-solid fa-comment"></i></div>
+                            <div class="text">Chat</div>
+                        </div>
+                        <div class="button">
+                            <div class="icon"><i class="fa-solid fa-record-vinyl"></i></div>
+                            <div class="text">Record</div>
+                        </div>
+                        <div class="button">
+                            <div class="icon"><i class="fa-solid fa-table-cells-large"></i></div>
+                            <div class="text">Breakout Rooms</div>
+                        </div>
+                        <div class="button">
+                            <div class="icon"><i class="fa-solid fa-ellipsis"></i></div>
+                            <div class="text">More</div>
+                        </div>
+                    </div>
+                    <div class="col-2 d_flex">
+                        <div class="end_meeting">End meeting</div>
+                    </div>
+                </div>
+            </div>
         </nav>
     </footer>
     <!-- /#site_footer -->
