@@ -72,8 +72,8 @@ body{
 main {
     background-color: var(--clr-black);
     padding: 5rem 5rem 1.75rem 5rem;
-   
     
+
 }
 
 main .card {
@@ -99,7 +99,7 @@ main .col-1 {
 
 footer{
     background-color: var(--clr-nav);
-    text-align: center;
+    text-align: center; 
 }
 
 .icon{
