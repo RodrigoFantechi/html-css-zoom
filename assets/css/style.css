@@ -8,6 +8,7 @@
     --clr-nav: #222222;
     --clr-light-dark: #4A4A4A;
     --clr-danger: #FF0000;
+    --clr-share: #4BC800;
 
 
 }
@@ -126,7 +127,9 @@ padding: 2rem;
 .left{
     justify-content: flex-end;
 }
-
+.green{
+    color: var(--clr-share);
+}
 
 
     
