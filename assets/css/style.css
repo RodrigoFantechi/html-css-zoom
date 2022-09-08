@@ -107,13 +107,12 @@ footer{
 }
 .button{
     padding: 0.75rem;
-    
     align-items: center;
 }
 .button *{
     margin: 0.2rem;
 }
-footer .col-8{
+footer .col-4{
     text-align: center;
 }
 footer .row{
@@ -123,6 +122,12 @@ footer .row{
 background-color: var(--clr-light-dark);
 color: var(--clr-danger);
 padding: 2rem;
+position: absolute;
+right: 0;
+
+}
+.position_relative{
+    position: relative;
 }
 
     
