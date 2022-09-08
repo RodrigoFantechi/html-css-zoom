@@ -1,0 +1,86 @@
+/* #region Common Rules */
+
+
+
+:root {
+    --clr-black: #000000;
+    --clr-white: #FFFFFF;
+    --clr-nav: #222222;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_fluid {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* #endregion Common Rules */
+
+/* #region Utilities */
+
+
+/* #endregion Utilities */
+
+/* #region Header */
+
+
+
+
+/* #endregion Header */
+
+/* #region Main */
+
+main {
+    background-color: var(--clr-black);
+    padding: 5rem 5rem 1.75rem 5rem;
+    color: var(--clr-white);
+    
+}
+
+main .card {
+    position: relative;
+}
+
+.card .username {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.5rem;
+}
+
+main .col-1 {
+    padding: 0.2rem 0.2rem 1rem 0.2rem;
+
+}
+
+/* #endregion Main */
+
+/* #region Footer */
+
+footer{
+    background-color: var(--clr-nav);
+}
+/* #endregion Footer */
+
+/* #region Grid Flexbox */
+.col-1 {
+    width: calc((100% / 7) * 1);
+}
+
+
+/* #endregion Grid Flexbox */
